@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     
     
-    @State var thekr = ""
+    @State var thekr = athkar.randomElement()!
     @State var counter = 0
     var body: some View {
         
